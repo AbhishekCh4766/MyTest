@@ -13,6 +13,8 @@ This is Basic crud operation. Althogh Edit is not functional but we can follow t
 
 2.Setting Up Project
 This project already has node modules in it so we don't need to run npm i.
+If you are downloading it from git please use 
+npm i
 
 3.For Db 
 Please use the command below to install json server
