@@ -1,0 +1,46 @@
+
+Project Documentation
+
+1.Test Project
+This project is running on Angular 10.
+This is Basic crud operation. Althogh Edit is not functional but we can follow the same process which we used for Add. We will need to just pass value in form like mentioned Below.
+
+   this.TaskForm = this.formBuilder.group({
+            title: ['Abhi', Validators.required],
+            author: ['Abhi', Validators.required]
+        }); 
+
+
+2.Setting Up Project
+This project already has node modules in it so we don't need to run npm i.
+
+3.For Db 
+Please use the command below to install json server
+npm i json-server
+
+npm install -g json-server
+
+4. run this project 
+ 
+ 
+ First we will need to run db in terminal using the command below
+  json-server --watch db.json
+
+Then we need to run angular part via
+  
+  ng serve --open 
+  to open this project in web browser
+
+  or we can use 
+  ng serve --aot
+
+
+
+5. Generate build
+
+To generate it's Build
+
+please use ng build --prod
+
+
+

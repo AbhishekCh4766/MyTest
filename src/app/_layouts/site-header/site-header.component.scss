@@ -1,0 +1,28 @@
+.navbar.navbar-custom {
+    background: no-repeat;
+    box-shadow: none;
+}
+.navbar ul.nav.navbar-right li a {
+    background: #ee6352 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 3px 11px;
+    margin: 0 0 0 10px;
+}
+.navbar .navbar-nav .nav-item a.nav-link {
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 1;
+    margin: 0;
+}
+nav.navbar.navbar-custom .navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+.is-sticky .navbar.navbar-custom {
+    background: #212121;
+    padding: 0;
+}
